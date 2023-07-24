@@ -29,6 +29,9 @@ jobs:
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         
+    - name: get system time
+      run: date
+        
     - name: send message to kafka
       run: python3 sendKafka.py
       env:
