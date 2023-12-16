@@ -23,7 +23,8 @@ data = [
     {"name": "John", "age": 30, "city": "New York"},
     {"name": "Alice", "age": 25, "city": "San Francisco"},
     {"name": "Bob", "age": 35, "city": "Chicago"},
-    {"content": "<html><body><p>Hello World</p></body></html>"}
+    {"content": "<html><body><p>Hello World</p></body></html>"},
+    { "from": "hemanthbitra@live.com", "to": "hemanthbitra@gmail.com", "body": { "bodymail": "<html><body><p>Hello World</p></body></html>" } }
 ]
 
 # Function to serialize data to JSON string
