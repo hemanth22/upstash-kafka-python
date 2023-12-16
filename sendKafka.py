@@ -22,7 +22,7 @@ topic_name = 'news'
 data = [
     {"name": "John", "age": 30, "city": "New York"},
     {"name": "Alice", "age": 25, "city": "San Francisco"},
-    {"name": "Bob", "age": 35, "city": "Chicago"}.
+    {"name": "Bob", "age": 35, "city": "Chicago"},
     {"content": "<html><body><p>Hello World</p></body></html>"}
 ]
 
